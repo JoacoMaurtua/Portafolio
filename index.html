@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <title>FalconShark</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"> FalconShark</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#portafolio_current">Portafolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#Nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="./Images/programing.png" alt="devTeam">
+            <div class = "texto">
+                <h1 class="nombre">Falcon Shark</h1>
+                <p class="lead">Developers team</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portafolio" id="portafolio_current">
+        <h1>Portafolio</h1>
+        <hr>       
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-stretch" ">
+                <a href = "#" ><img class="imagen" src="../images/img1.jpg" alt=""></a>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch"">
+                <a href = "#" ><img class="imagen" src="../images/img1.jpg" alt=""></a>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch"">
+                <a href = "#" ><img class="imagen" src="../images/img1.jpg"  alt=""></a>
+            </div>
+        </div> 
+    </div>
+
+    <div class="Info" id = "Nosotros">
+        <div class = "texto">
+            <h2 class="nombre">Sobre Nosotros</h2>
+            <hr>
+            <p>Somos un equipo de desarroladores competitivos, con amplios conocimientos en<br>
+            cuanto a FrontEnd y BackEnd, tenemos altas expectativas de realizar proyectos<br>
+            complejos y geniales, además contamos con fuertes habilidades blandas que nos dan<br>
+            la posibilidad de trabajar en equipo de manera proactiva y bajo presión, sobre todo<br>
+            tenemos en mente planes a largo plazo para conquistar el mundo con nuestras ideas<br>
+            ¡Somos grandes Rockstars!
+            </p>
+        </div>
+    </div>
+
+
+    <form id = "Contacto">
+        <h1>Contacto</h1>
+        <hr>
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="nombre" class="form-control" id="name" placeholder="Ingresa tu nombre">    
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="text" name="contacto" class="form-control" id="exampleInputPassword1" placeholder="Contarseña">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Contacto</label>
+            <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Contacto">
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Escriba mensaje</textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <div class="footer" id = "Footer">
+           
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class ="left box">
+                    <h2>Dirección</h2>
+                    <div class = "lugar">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="text">Quimera 3r piso</i>
+                    </div>
+                    <div class = "telefono">
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="text">993 406 228</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class = "right box">
+                    <h2>En las redes</h2>
+                    <div class="socialNetworks">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <footer>
+        <p>Copyright <i class="far fa-copyright"></i> FalconShark 2021 </p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/26beac1ff1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/********************NavBar***********************/
+
+.navbar-light {
+  background-color: #00a6a6;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar,
+.navbar-expand-lg,
+.navbar-light {
+  padding: 10px 25px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+/********************Termina el NavBar***********************/
+
+/**********************Jumbotron*****************************/
+
+.jumbotron-fluid {
+  background: #e7edef;
+  height: 45vh;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  display: table;
+}
+
+.jumbotron-fluid .nombre {
+  padding-top: 2%;
+}
+
+.jumbotron-fluid p {
+  margin-top: -1%;
+}
+
+.jumbotron-fluid img {
+  width: 17%;
+  object-fit: contain;
+  position: relative;
+  margin-top: 6%;
+}
+
+/**********************Termina el Jumbotron*****************************/
+
+/*********************Portafolio***********************/
+
+.portafolio {
+  height: 85vh;
+  background-color: #00a6a6;
+  /*display: table;*/
+}
+
+.portafolio h1 {
+  text-align: center;
+  height: 25%;
+  font-size: 250%;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  padding-top: 2.85%;
+  color: white;
+  display: table;
+  margin: 0px auto;
+  /*position: absolute;*/
+  padding-top: 3.4%;
+}
+
+.row {
+  padding: 0px 55px;
+}
+
+.imagen {
+  width: 80%;
+  border-radius: 8%;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: 25%;
+}
+
+/*********************Termina el Portafolio***********************/
+
+/*.Info{
+  display: table;
+} */
+
+/**********************Seccion Acerca de nosotros***************/
+
+.Info .texto {
+  background: #e7edef;
+  height: 45vh;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  display: block;
+  padding-top: 1.2%;
+}
+.Info .nombre {
+  padding-bottom: 2.1%;
+}
+.Info .texto h2 {
+  height: 20%;
+  padding-top: 1%;
+}
+
+.Info .texto p {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+
+/**********************Termina la Seccion Acerca de nosotros***************/
+
+/****************************Fomrulario**********************/
+
+form {
+  background: #00a6a6;
+  padding: 15px 45px;
+}
+
+form h1 {
+  text-align: center;
+  padding-top: 1.5%;
+  height: 30%;
+}
+
+form h1 {
+  margin: 0px auto;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  color: white;
+  font-size: 230%;
+}
+
+form .form-group {
+  display: block;
+  width: 65%;
+  margin: 0px auto;
+  padding: 15px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+form .form-group:hover {
+  color: #ffb800;
+  font-weight: bold;
+}
+
+form .form-group .form-control {
+  margin-top: 0.7%;
+  outline: none;
+}
+
+form .form-group .form-control::placeholder {
+  color: #000;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0px auto;
+  color: white;
+  background: #5fad41;
+  width: 10%;
+  height: 10%;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+/****************************Termina el Fomrulario**********************/
+
+/***************************Footer*************************/
+
+.footer {
+  background: #0e3b43;
+  height: 35vh;
+  /*display: flex;*/
+  width: 100%;
+}
+
+.footer .row .box {
+  margin: 0px auto;
+}
+
+.footer .row .box h2 {
+  color: white;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.footer .row .box .socialNetworks {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.footer .row .box .socialNetworks i {
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 0px 8px;
+  padding: 15px;
+}
+
+.footer .row .left .text {
+  color: white;
+  font-weight: bold;
+  font-size: 95%;
+  margin-left: 15px;
+}
+
+.footer .row .left .lugar,
+.footer .row .left .telefono {
+  margin-top: 20px;
+}
+
+.footer .row .left i {
+  color: white;
+  font-size: 95%;
+}
+
+/**Beguin Copyright**************************************************/
+footer {
+  background: gray;
+  height: 6vh;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  padding-top: 0.7%;
+}
+
+footer p .fa-copyright {
+  margin: 0px 0.5%;
+}
+
+/***************************Termina el Footer*************************/
